@@ -48,6 +48,10 @@ switch (nomepeca.length) {
         console.log("O nome da peça deve ter mais que três caracteres, Digite um nome adequado.")
         break; 
 
+    case 4:
+        console.log("O nome possui 4 chars")    
+        break;
+
     default:
         console.log("Nome de peça está adequado para o cadastro!")
         break;
